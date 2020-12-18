@@ -2229,7 +2229,10 @@
 .img-wrap figure {
   line-height: 0
 }
-
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
 .img-wrap img {
   width: 100%;
   height: auto
@@ -2332,7 +2335,7 @@
   left: 110%
 }
 
-.next-project a:hover .shape-morph.shape-morph-bottom {
+.next-project a:hover .shape-morph-bottom {
   left: 100%;
   top: 80%;
   width: 150%
